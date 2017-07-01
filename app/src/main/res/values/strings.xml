@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Bitnext</string>
+    <string name="action_settings">Settings</string>
+    <string name="username_item">Usuario</string>
+    <string name="usuario">Username</string>
+    <string name="home_item">Inicio</string>
+    <string name="lights_item">Luces</string>
+    <string name="doors_item">Puertas</string>
+    <string name="cam_item">Cámara de Seguridad</string>
+    <string name="clave_item">Modificar contraseña</string>
+    <string name="code_item">Modificar Código</string>
+    <string name="configuracion_item">Configuración</string>
+    <string name="log_in_item">Iniciar Sesión</string>
+    <string name="log_out_item">Cerrar Sesión</string>
+    <string name="config">Configuración</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="imagen">Image Here</string>
+    <string name="doors_title">Control de puerta del Centro de Datos</string>
+    <string name="lights_title">Control de luces del Centro de Datos</string>
+    <string name="camera_title">Monitoreo de Cámara de vigilancia</string>
+
+    <string name="temper">Temperatura y humedad</string>
+    <string name="stopService">Detener Servicio de Alertas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

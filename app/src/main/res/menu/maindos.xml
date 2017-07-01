@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.valen.proyectobitnext.MainActivity">
+
+    <item
+        android:id="@+id/salir"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:showAsAction="ifRoom"
+        android:title="Salir"
+        />
+
+
+
+</menu>

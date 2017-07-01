@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.FragmentTemperatura">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvtemperatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperatura"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/tvtemperaturaNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textSize="60sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvtemperatura"/>
+
+        <TextView
+            android:id="@+id/tvvacio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                "
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvtemperaturaNum"/>
+
+        <TextView
+            android:id="@+id/tvhumedad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humedad"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvvacio"/>
+
+        <TextView
+            android:id="@+id/tvhumedadNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textSize="60sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvhumedad"/>
+
+        <TextView
+            android:id="@+id/tvvacio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                "
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvhumedadNum"/>
+
+        <TextView
+            android:id="@+id/tvAlerta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:textColor="#4CAF50"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvvacio2"/>
+
+        <TextView
+            android:id="@+id/tvvacio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                "
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvAlerta"/>
+
+        <Button
+            android:id="@+id/btntemperatura"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Temperatura/Humedad"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvvacio3"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/White"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</ScrollView>

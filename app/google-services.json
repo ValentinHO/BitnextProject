@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "786800568622",
+    "firebase_url": "https://bitnextproject.firebaseio.com",
+    "project_id": "bitnextproject",
+    "storage_bucket": "bitnextproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786800568622:android:21557e7163c05c63",
+        "android_client_info": {
+          "package_name": "com.example.valen.proyectobitnext"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786800568622-1acjlk2h92k30pih13asid55qd4ra744.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.valen.proyectobitnext",
+            "certificate_hash": "569769D6A8D21A95861A1E5B0C15DE72E984507A"
+          }
+        },
+        {
+          "client_id": "786800568622-k04k6mj2g12jrim6hr26v475eqbpd2hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAshqEqo_G9O3W-Guc2MPhWpU9JSP0Mcww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786800568622-k04k6mj2g12jrim6hr26v475eqbpd2hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

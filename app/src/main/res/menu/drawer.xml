@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_18pt_2x"
+            android:title="@string/home_item"/>
+        <item
+            android:id="@+id/nav_lights"
+            android:icon="@drawable/ic_lightbulb_outline_18pt_2x"
+            android:title="@string/lights_item"/>
+        <item
+            android:id="@+id/nav_doors"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="@string/doors_item"/>
+        <item
+            android:id="@+id/nav_cam"
+            android:icon="@drawable/ic_wifi_tethering_black_36dp"
+            android:title="@string/cam_item"/>
+        <!--<item
+            android:id="@+id/nav_tempe"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/temper"/>-->
+        <item
+            android:title="@string/configuracion_item">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_claveSesion"
+                        android:icon="@drawable/ic_build_black_24dp"
+                        android:title="@string/clave_item"/>
+
+                    <item
+                        android:id="@+id/nav_Iniciar_Sesion"
+                        android:icon="@drawable/ic_power_settings_new_18pt_2x"
+                        android:title="@string/log_in_item"/>
+                    <item
+                        android:id="@+id/nav_session"
+                        android:icon="@drawable/ic_power_settings_new_18pt_2x"
+                        android:title="@string/log_out_item"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
